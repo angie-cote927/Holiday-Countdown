@@ -3,6 +3,8 @@ body{
     margin: auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 95vh;
+    background-color: pink;
 }
 
 header{
@@ -15,13 +17,18 @@ header{
 
 .countdown{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-left: 33%;
     color: #333;
     font-size: large;
-    background-color: #c5c5c5;
     width: 33%;
-    height: 12rem;
+    height: auto;
+}
+.countdown div{
+    background: #dccce1;
+    margin: 2rem;
+    height: fit-content;
     border-radius: 20px;
 }
